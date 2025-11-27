@@ -16,7 +16,7 @@ AWS Direct Connect allows on-premise data centers to connect to the AWS cloud to
 
 6. Removed legacy infrastructure dependence 
 
-# AWS Direct Connect vs Site to Site VPN 🚀
+# AWS Direct Connect and Transit Gateway vs Site to Site VPN 🚀
 
 AWS Direct Connect uses a direct line to connect on the on-premise data center to the cloud environment via the AWS cloud backend and can paired with a transit gateway to connect to multiple clouds in different regions for disaster recovery. DX is best used for high performance, large amounts of data exchange, low latency and for high bandwidth connection requirements. Resulting in higher cost. Site to site VPN is more cost affective, but uses the internet to connect different networks. This can increase infrastructure increase attack surface causing more security risk. 
 
